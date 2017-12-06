@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rememberme.rememberme.Sign_upActivity">
+    tools:context="com.rememberme.rememberme.Sign_inActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -118,7 +118,6 @@
             </RadioGroup>
 
             <Button
-                android:id="@+id/BtnPost"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -128,13 +127,6 @@
                 android:textColor="#ffffff"
                 android:textSize="20dp"
                 android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="연결"
-                android:textSize="30sp" />
 
             <Button
                 android:id="@+id/button"
@@ -147,7 +139,7 @@
                 android:layout_marginTop="20dp"
                 android:drawableLeft="@drawable/facebook_logo_29"
                 android:drawableStart="@drawable/facebook_logo_29"
-                android:text="보내기" />
+                android:text="sign up with facebook" />
 
             <Button
                 android:id="@+id/button2"
@@ -160,6 +152,7 @@
                 android:drawableLeft="@drawable/google_logo_29"
                 android:drawableStart="@drawable/google_logo_29"
                 android:text="sign up with google"/>
+
 
 
         </LinearLayout>
