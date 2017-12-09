@@ -4,20 +4,16 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
     CurrentFragment currentFragment;
     ListFragment listFragment;
-    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout actionbar_linear = (LinearLayout) findViewById(R.id.actionbar_linear);
 
         currentFragment = new CurrentFragment();
         listFragment = new ListFragment();

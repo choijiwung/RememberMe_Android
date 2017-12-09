@@ -13,20 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
 
-        <!-- <activity android:name=".ActivityGallery"> -->
-
-
-        <!-- &lt;!&ndash; <intent-filter> &ndash;&gt; -->
-        <!-- &lt;!&ndash; <action android:name="android.intent.action.MAIN" /> &ndash;&gt; -->
-
-
-        <!-- &lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt; -->
-        <!-- &lt;!&ndash; </intent-filter> &ndash;&gt; -->
-        <!-- </activity> -->
-        <activity android:name=".LoginActivity">
+        <activity android:name=".User.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.Sign_upActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -37,13 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Sign_upActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".trip_calendar_Activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,7 +1,7 @@
 package com.rememberme.rememberme.User.Results;
 
 /**
- * Created by samsung on 2017-12-08.
+ * Created by JW on 2017-12-09.
  */
 
 public class SignUpResult {
